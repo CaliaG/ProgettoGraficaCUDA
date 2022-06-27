@@ -9,4 +9,7 @@ Progetto di Grafica Tridimensionale per il corso di studio in Ingegneria Informa
 </p>
 
 ## Risultati
+<img style="padding-bottom: 5px" alt="" src="risultati/sky_box.jpg?raw=true">
+<img style="padding-bottom: 5px" alt="" src="risultati/sfere.jpg?raw=true">
 <img style="padding-bottom: 5px" alt="" src="risultati/cornel_box.jpg?raw=true">
+<img style="padding-bottom: 5px" alt="" src="risultati/star_wars.jpg?raw=true">
