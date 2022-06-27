@@ -1,0 +1,5 @@
+main
+main.o
+image.jpg
+image.ppm
+*.DS_Store
