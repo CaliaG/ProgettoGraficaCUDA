@@ -11,10 +11,10 @@
 #include "../utils/mtl_utils.h"
 
 //#define SCENE_SKYBOX
-#define SCENE_SPHERES
+//#define SCENE_SPHERES
 //#define SCENE_CORNELL_BOX
 //#define SCENE_STAR_WARS
-//#define SCENE_GALLERY
+#define SCENE_GALLERY
 
 // ------------------> METODI DI UTILITA'
 enum MaterialType {

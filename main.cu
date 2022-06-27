@@ -145,7 +145,7 @@ int main() {
     gpu_memory();
 
     // -- background (hdr)
-    ImageData backgroundData = caricaImmagine("/content/cuda_test/skybox/city_night.jpg");
+    ImageData backgroundData = caricaImmagine("/content/ProgettoGraficaCUDA/skybox/city_night.jpg");
     Texture** background;
     CUDA_CONTROL(cudaMalloc((void **)&background, sizeof(Texture)));
     build_background<<<1, 1>>>(backgroundData, background);
@@ -198,7 +198,7 @@ int main() {
     gpu_memory();
 
     // -- background (hdr)
-    ImageData backgroundData = caricaImmagine("/content/cuda_test/skybox/desert.jpeg");
+    ImageData backgroundData = caricaImmagine("/content/ProgettoGraficaCUDA/skybox/desert.jpeg");
     Texture** background;
     CUDA_CONTROL(cudaMalloc((void **)&background, sizeof(Texture)));
     build_background<<<1, 1>>>(backgroundData, background);
@@ -251,7 +251,7 @@ int main() {
     gpu_memory();
 
     // -- background (hdr)
-    ImageData backgroundData = caricaImmagine("/content/cuda_test/skybox/desert.jpeg");
+    ImageData backgroundData = caricaImmagine("/content/ProgettoGraficaCUDA/skybox/desert.jpeg");
     Texture** background;
     CUDA_CONTROL(cudaMalloc((void **)&background, sizeof(Texture)));
     build_background<<<1, 1>>>(backgroundData, background);
@@ -291,14 +291,14 @@ int main() {
 
     // ----------------------------- STAR_WARS -----------------------------
 #ifdef SCENE_STAR_WARS
-    objData obj_0 = load_obj("/content/cuda_test/models/R2D2/Low_Poly_R2D2.obj", "/content/cuda_test/models/R2D2/");
-    objData obj_1 = load_obj("/content/cuda_test/models/Light_Saber/circle.obj");
-    objData obj_2 = load_obj("/content/cuda_test/models/Light_Saber/light.obj");
-    objData obj_3 = load_obj("/content/cuda_test/models/Light_Saber/handle_terrain.obj");
-    objData obj_4 = load_obj("/content/cuda_test/models/Light_Saber/light_terrain.obj");
-    objData obj_5 = load_obj("/content/cuda_test/models/Helmet_Stormtrooper/Helmet_Stormtrooper.obj");
-    objData obj_6 = load_obj("/content/cuda_test/models/c3po.obj");
-    objData obj_7 = load_obj("/content/cuda_test/models/Farming_Droid/Farming_Droid_2.obj");
+    objData obj_0 = load_obj("/content/ProgettoGraficaCUDA/models/R2D2/Low_Poly_R2D2.obj", "/content/ProgettoGraficaCUDA/models/R2D2/");
+    objData obj_1 = load_obj("/content/ProgettoGraficaCUDA/models/Light_Saber/circle.obj");
+    objData obj_2 = load_obj("/content/ProgettoGraficaCUDA/models/Light_Saber/light.obj");
+    objData obj_3 = load_obj("/content/ProgettoGraficaCUDA/models/Light_Saber/handle_terrain.obj");
+    objData obj_4 = load_obj("/content/ProgettoGraficaCUDA/models/Light_Saber/light_terrain.obj");
+    objData obj_5 = load_obj("/content/ProgettoGraficaCUDA/models/Helmet_Stormtrooper/Helmet_Stormtrooper.obj");
+    objData obj_6 = load_obj("/content/ProgettoGraficaCUDA/models/c3po.obj");
+    objData obj_7 = load_obj("/content/ProgettoGraficaCUDA/models/Farming_Droid/Farming_Droid_2.obj");
     
     set_1GB_heap_size();
 
@@ -318,7 +318,7 @@ int main() {
     start = clock();
 
     // -- background (hdr)
-    ImageData backgroundData = caricaImmagine("/content/cuda_test/skybox/desert.jpeg");
+    ImageData backgroundData = caricaImmagine("/content/ProgettoGraficaCUDA/skybox/desert.jpeg");
     Texture** background;
     CUDA_CONTROL(cudaMalloc((void **)&background, sizeof(Texture)));
     build_background<<<1, 1>>>(backgroundData, background);
@@ -359,15 +359,15 @@ int main() {
 
     // ----------------------------- GALLERY -----------------------------
 #ifdef SCENE_GALLERY
-    objData obj_0 = load_obj("/content/cuda_test/models/Helmet_Stormtrooper/Helmet_Stormtrooper.obj");
-    objData obj_1 = load_obj("/content/cuda_test/models/bender.obj");
-    //objData obj_1 = load_obj("/content/cuda_test/models/robot_cat_sketchfab.obj");
-    objData obj_2 = load_obj("/content/cuda_test/models/skull.obj");
-    objData obj_3 = load_obj("/content/cuda_test/models/origami_cat.obj");
-    objData obj_4 = load_obj("/content/cuda_test/models/origami_dog.obj");
-    objData obj_5 = load_obj("/content/cuda_test/models/raptor.obj");
-    objData obj_6 = load_obj("/content/cuda_test/models/whale.obj");
-    objData obj_7 = load_obj("/content/cuda_test/models/Mandalorian.obj");
+    objData obj_0 = load_obj("/content/ProgettoGraficaCUDA/models/Helmet_Stormtrooper/Helmet_Stormtrooper.obj");
+    objData obj_1 = load_obj("/content/ProgettoGraficaCUDA/models/bender.obj");
+    //objData obj_1 = load_obj("/content/ProgettoGraficaCUDA/models/robot_cat_sketchfab.obj");
+    objData obj_2 = load_obj("/content/ProgettoGraficaCUDA/models/skull.obj");
+    objData obj_3 = load_obj("/content/ProgettoGraficaCUDA/models/origami_cat.obj");
+    objData obj_4 = load_obj("/content/ProgettoGraficaCUDA/models/origami_dog.obj");
+    objData obj_5 = load_obj("/content/ProgettoGraficaCUDA/models/raptor.obj");
+    objData obj_6 = load_obj("/content/ProgettoGraficaCUDA/models/whale.obj");
+    objData obj_7 = load_obj("/content/ProgettoGraficaCUDA/models/Mandalorian.obj");
     
     // get_heap_size();
     set_1GB_heap_size();
@@ -390,7 +390,7 @@ int main() {
     vector3D lookat;
     
     // -- background (hdr)
-    ImageData backgroundData = caricaImmagine("/content/cuda_test/skybox/desert2.jpeg");
+    ImageData backgroundData = caricaImmagine("/content/ProgettoGraficaCUDA/skybox/desert2.jpeg");
     Texture** background;
     CUDA_CONTROL(cudaMalloc((void **)&background, sizeof(Texture)));
     build_background<<<1, 1>>>(backgroundData, background);
