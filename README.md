@@ -7,3 +7,6 @@ Progetto di Grafica Tridimensionale per il corso di studio in Ingegneria Informa
 <p align="center">
   <img src="https://i.ibb.co/09MYJXc/logo-unibas-b.png" alt="logo-unibas"></a>
 </p>
+
+## Risultati
+<img style="padding-bottom: 5px" alt="" src="risultati/cornel_box.jpg?raw=true">
